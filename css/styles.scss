@@ -580,7 +580,11 @@ p {
 	.col-sm-4 {
 		.equal-height {
 			margin-bottom: 40px;
-		}	
+		}
+	.thumbnail .image-container img { 
+		width: 100%; 
+		max-height: none; 
+		} 
 	}
 }
 @import 'breadcrumbs';
