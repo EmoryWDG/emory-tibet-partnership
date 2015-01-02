@@ -1,0 +1,53 @@
+.emory-wide ul li.top.search {
+	z-index: 4;
+
+	&:hover {
+		z-index: 4;
+	}
+}
+.emory-wide ul .nav-box #form-search .btn {
+	height: 22px;
+}
+
+#mobile-search .input-group-addon .btn {
+	background-color: transparent;
+	font-size: 20px;
+}
+
+.search-scope {
+	margin-left: 0;
+}
+
+.header-hat {
+	height: auto;
+	background-color: #00257a;
+}
+
+.navbar {
+
+	background-color: $white;
+	border-radius: 0px;
+	z-index: 2;
+
+	a{
+		text-transform: uppercase;
+		color: $moodyblue;
+		font-size: 11px;
+	}
+	.line-2 {
+		font-weight: bold;
+	}
+	li {
+		border-right: solid 1px #ccc;
+		
+		&:last-child{
+			border-right: none;
+		}
+	}
+
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: $orange;
+	color: $white;
+}
