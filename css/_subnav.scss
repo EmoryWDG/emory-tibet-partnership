@@ -29,48 +29,51 @@
 			border-bottom: #ccc solid 1px;
 			padding-bottom: 20px;
 			text-align: right;
-			a {
-				color: $grey;
-				padding-right: 10px;
-				// padding: .5em 0em;
-				&:hover {
-					background-color: transparent;
-					color: $grey;
-					font-weight: 400;
-				}
-			}
-			&.current a{
-				color: $grey;
-			}
-
-			&.active {
-				color: $green;
-				background-color: $light-grey;
 				a {
 					color: $grey;
-					// text-transform: capitalize;
-					font-weight: 400;
-					// margin: 0px;
-					// list-style-type: none;
-					// font-size: .8em;
-					// background-image: none;
-					// min-height: 70px;
-					// display: block;
-					// margin-left: -20px;
-					// margin-bottom: -20px;
+					padding-right: 10px;
+					// padding: .5em 0em;
+					&:hover {
+						background-color: transparent;
+						color: $grey;
+						font-weight: 400;
+					}
+				}
+				&.current a{
+					color: $grey;
 				}
 
-				.level3 {
-					// margin-bottom: 30px;
+				&.active {
+					color: $green;
+					background-color: $light-grey;
+					padding-top: 20px;
+					margin-top: -18px;
+					a {
+						color: $grey;
 
-					li {
-						// background-color: $moodyblue;
-						a { 
-							@extend %current-link;
+						// text-transform: capitalize;
+						font-weight: 400;
+						// margin: 0px;
+						// list-style-type: none;
+						// font-size: .8em;
+						// background-image: none;
+						// min-height: 70px;
+						// display: block;
+						// margin-left: -20px;
+						// margin-bottom: -20px;
+					}
+
+					.level3 {
+						// margin-bottom: 30px;
+
+						li {
+							// background-color: $moodyblue;
+							a { 
+								@extend %current-link;
+							}
 						}
 					}
 				}
-			}
 
 			&:hover {
 				// background-color: $moodyblue;
@@ -82,7 +85,7 @@
 				.level3 {
 					li {
 						// background-color: $moodyblue;
-
+						border-bottom: none;
 						a { 
 							@extend %current-link;
 						}
