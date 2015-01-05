@@ -46,6 +46,12 @@
 	}
 
 }
+.navbar-brand {
+float: left;
+padding: 10px 10px;
+font-size: 18px;
+line-height: 20px;
+}
 
 .navbar-default .navbar-nav>.active>a {
 	background-color: $orange;
