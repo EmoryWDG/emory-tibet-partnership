@@ -12,7 +12,6 @@
 
 #sub-nav {
 	.equal-height & {
-		background-color: $green;
 		height: 100%;
 
 		ul {
@@ -26,8 +25,9 @@
 			font-weight: 200;
 			//text-transform: uppercase;
 			list-style-type: none;
-
-
+			border-bottom: #ccc solid 1px;
+			padding-bottom: 20px;
+			text-align: right;
 			a {
 				color: $grey;
 				padding: 0;
@@ -44,7 +44,7 @@
 			}
 
 			&.active {
-				color: $moodyblue;
+				color: $grey;
 				background-color: $light-grey;
 				a {
 					color: $white;
