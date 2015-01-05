@@ -133,14 +133,12 @@ main p {
 }
 .equal-height #sub-nav ul li.active a {
   color: #686868;
+  text-decoration: none;
   font-weight: 400;
 }
 .equal-height #sub-nav ul li:hover a {
   color: #686868;
   font-weight: 400;
-}
-.equal-height #sub-nav ul li:hover .level3 li {
-  border-bottom: none;
 }
 .equal-height #sub-nav ul li.level3 {
   padding-left: 2em;
