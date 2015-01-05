@@ -95,7 +95,6 @@ main p {
   font-size: .8em;
   background-image: none;
   display: block;
-  text-decoration: none;
 }
 
 .equal-height #sub-nav {
@@ -117,18 +116,14 @@ main p {
 .equal-height #sub-nav ul li a {
   color: #686868;
   padding-right: 10px;
-  text-decoration: none;
 }
 .equal-height #sub-nav ul li a:hover {
-  background-color: #f1f1f1;
+  background-color: transparent;
   color: #686868;
   font-weight: 400;
-  margin-top: -20px;
-  padding-top: 20px;
 }
 .equal-height #sub-nav ul li.current a {
   color: #686868;
-  padding-bottom: 0px;
 }
 .equal-height #sub-nav ul li.active {
   color: #82ab45;
