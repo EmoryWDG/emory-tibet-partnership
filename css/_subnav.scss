@@ -8,7 +8,7 @@
 	background-image: none;
 	// min-height: 70px;
 	display: block;
-	
+	text-decoration: none;
 }
 
 #sub-nav {
@@ -32,15 +32,19 @@
 				a {
 					color: $grey;
 					padding-right: 10px;
+					text-decoration: none;
 					// padding: .5em 0em;
 					&:hover {
-						background-color: transparent;
+						background-color: $light-grey;
 						color: $grey;
 						font-weight: 400;
+						margin-top: -20px;
+						padding-top: 20px;
 					}
 				}
 				&.current a{
 					color: $grey;
+					padding-bottom: 0px;
 				}
 
 				&.active {
@@ -70,6 +74,7 @@
 							// background-color: $moodyblue;
 							a { 
 								@extend %current-link;
+
 							}
 						}
 					}
