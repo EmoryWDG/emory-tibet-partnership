@@ -112,15 +112,16 @@ main p {
   list-style-type: none;
 }
 .equal-height #sub-nav ul li a {
-  color: #fff;
+  color: #686868;
   padding: 0;
 }
 .equal-height #sub-nav ul li a:hover {
   background-color: transparent;
-  color: #085282;
+  color: #686868;
+  font-weight: 400;
 }
 .equal-height #sub-nav ul li.current a {
-  color: #085282;
+  color: #686868;
 }
 .equal-height #sub-nav ul li.active {
   color: #085282;

@@ -27,22 +27,25 @@
 			//text-transform: uppercase;
 			list-style-type: none;
 
+
 			a {
-				color: $white;
+				color: $grey;
 				padding: 0;
 				// padding: .5em 0em;
 				&:hover {
 					background-color: transparent;
-					color: $moodyblue;
+					color: $grey;
+					font-weight: 400;
 				}
 			}
 
 			&.current a{
-				color: $moodyblue;
+				color: $grey;
 			}
 
 			&.active {
 				color: $moodyblue;
+				background-color: $light-grey;
 				a {
 					color: $white;
 					// text-transform: capitalize;
