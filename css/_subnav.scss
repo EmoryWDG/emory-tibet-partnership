@@ -1,15 +1,13 @@
 %current-link {
 	color: $white;
 	text-transform: capitalize;
-	font-weight: 400;
-	margin: 0px;
+	font-weight: 200;
+	// margin: 0px;
 	list-style-type: none;
 	font-size: .8em;
 	background-image: none;
 	// min-height: 70px;
 	display: block;
-	margin-left: -20px;
-	margin-bottom: -20px;
 }
 
 #sub-nav {
@@ -17,26 +15,34 @@
 		background-color: $green;
 		height: 100%;
 
-		ul li {
-			background-color: $white;
-			margin: 10px;
-			min-height: 90px;
+		ul {
+			padding: 0;
+			li {
+			// background-color: $white;
+			margin: 1em;
+			// min-height: 90px;
 			background-repeat: no-repeat;
 			background-position: bottom right;
-			font-weight: 600;
+			font-weight: 200;
 			//text-transform: uppercase;
 			list-style-type: none;
 
 			a {
-				color: $moodyblue;
-
+				color: $white;
+				padding: 0;
+				// padding: .5em 0em;
 				&:hover {
 					background-color: transparent;
+					color: $moodyblue;
 				}
 			}
 
+			&.current a{
+				color: $moodyblue;
+			}
+
 			&.active {
-				background-color: $moodyblue;
+				color: $moodyblue;
 				a {
 					color: $white;
 					// text-transform: capitalize;
@@ -52,10 +58,10 @@
 				}
 
 				.level3 {
-					margin-bottom: 30px;
+					// margin-bottom: 30px;
 
 					li {
-						background-color: $moodyblue;
+						// background-color: $moodyblue;
 						a { 
 							@extend %current-link;
 						}
@@ -64,14 +70,14 @@
 			}
 
 			&:hover {
-				background-color: $moodyblue;
+				// background-color: $moodyblue;
 				a {
-					color: $white;
+					color: $moodyblue;
 				}
 
 				.level3 {
 					li {
-						background-color: $moodyblue;
+						// background-color: $moodyblue;
 
 						a { 
 							@extend %current-link;
@@ -80,13 +86,14 @@
 				}
 			}
 
-			.level3 {
+			&.level3 {
+				padding-left: 2em;
 				li {
 					a {
 						@extend %current-link;
 
 						&:hover {
-							background-color: $moodyblue;
+							// background-color: $moodyblue;
 
 							a {
 								color: $white;
@@ -96,7 +103,7 @@
 					}
 
 					&:hover {
-						background-color: $moodyblue;
+						// background-color: $moodyblue;
 						a {
 							color: $white;
 						}
@@ -107,5 +114,8 @@
 			} 
 		}
 	}
+
+
+}
 }
 
