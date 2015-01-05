@@ -582,8 +582,8 @@ p {
 			margin-bottom: 40px;
 		}
 		.thumbnail .image-container img { 
-		width: 100%; 
-		max-height: none; 
+			width: 100%; 
+			max-height: none; 
 		} 
 	}
 	main h1{
@@ -593,3 +593,4 @@ p {
 }
 @import 'breadcrumbs';
 @import 'news-feed';
+@import 'resources';
