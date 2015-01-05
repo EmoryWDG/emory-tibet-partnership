@@ -81,7 +81,13 @@
 				}
 
 			&:hover {
-				// background-color: $moodyblue;
+
+				background-color: $light-grey;
+				color: $grey;
+				font-weight: 400;
+				margin-top: -20px;
+				padding-top: 20px;
+
 				a {
 					color: $grey;
 					font-weight: 400;
