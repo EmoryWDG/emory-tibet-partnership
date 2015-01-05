@@ -30,7 +30,7 @@
 			text-align: right;
 			a {
 				color: $grey;
-				padding: 0;
+				padding-right: 10px;
 				// padding: .5em 0em;
 				&:hover {
 					background-color: transparent;
@@ -46,7 +46,7 @@
 				color: $green;
 				background-color: $light-grey;
 				a {
-					color: $white;
+					color: $grey;
 					// text-transform: capitalize;
 					// font-weight: 400;
 					// margin: 0px;

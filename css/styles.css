@@ -115,7 +115,7 @@ main p {
 }
 .equal-height #sub-nav ul li a {
   color: #686868;
-  padding: 0;
+  padding-right: 10px;
 }
 .equal-height #sub-nav ul li a:hover {
   background-color: transparent;
@@ -130,7 +130,7 @@ main p {
   background-color: #f1f1f1;
 }
 .equal-height #sub-nav ul li.active a {
-  color: #fff;
+  color: #686868;
 }
 .equal-height #sub-nav ul li:hover a {
   color: #085282;
