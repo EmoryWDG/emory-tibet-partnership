@@ -133,16 +133,18 @@ main p {
   color: #686868;
 }
 .equal-height #sub-nav ul li:hover a {
-  color: #085282;
+  color: #686868;
+  font-weight: 400;
 }
 .equal-height #sub-nav ul li.level3 {
   padding-left: 2em;
 }
 .equal-height #sub-nav ul li.level3 li a:hover a {
-  color: #fff;
+  color: #686868;
 }
 .equal-height #sub-nav ul li.level3 li:hover a {
-  color: #fff;
+  color: #686868;
+  font-weight: 400;
 }
 
 #news dl {
