@@ -852,6 +852,10 @@ footer {
     width: 100%;
     max-height: none;
   }
+
+  main h1 {
+    font-size: 1.5em;
+  }
 }
 /* CUSTOM STYLES FOR BREADCRUMB */
 .breadcrumb {
