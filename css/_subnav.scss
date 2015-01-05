@@ -74,7 +74,8 @@
 			&:hover {
 				// background-color: $moodyblue;
 				a {
-					color: $moodyblue;
+					color: $grey;
+					font-weight: 400;
 				}
 
 				.level3 {
@@ -98,7 +99,7 @@
 							// background-color: $moodyblue;
 
 							a {
-								color: $white;
+								color: $grey;
 							}
 						}
 						
@@ -107,7 +108,8 @@
 					&:hover {
 						// background-color: $moodyblue;
 						a {
-							color: $white;
+							color: $grey;
+							font-weight: 400;
 						}
 					}
 					
