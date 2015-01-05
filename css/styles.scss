@@ -582,11 +582,15 @@ p {
 		.equal-height {
 			margin-bottom: 40px;
 		}
-	.thumbnail .image-container img { 
+		.thumbnail .image-container img { 
 		width: 100%; 
 		max-height: none; 
 		} 
 	}
+	main h1{
+		font-size: 1.5em;
+	}
+	
 }
 @import 'breadcrumbs';
 @import 'news-feed';
