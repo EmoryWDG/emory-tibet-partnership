@@ -2,6 +2,10 @@
 .resource-section {
 	border-bottom: solid 1px $light-grey;
 	padding-bottom: 1em;
+	.description {
+		font-size: .8em;
+		margin-bottom: 1em;
+	}
 	.resource {
 		padding-bottom: .5em;
 		a {

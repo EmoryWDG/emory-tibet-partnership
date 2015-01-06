@@ -1005,6 +1005,10 @@ footer {
   border-bottom: solid 1px #f1f1f1;
   padding-bottom: 1em;
 }
+.resource-section .description {
+  font-size: .8em;
+  margin-bottom: 1em;
+}
 .resource-section .resource {
   padding-bottom: .5em;
 }
