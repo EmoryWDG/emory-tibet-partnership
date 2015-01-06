@@ -1009,24 +1009,38 @@ footer {
   font-size: .8em;
   margin-bottom: 1em;
 }
-.resource-section .resource {
-  padding-bottom: .5em;
-}
-.resource-section .resource a {
-  color: #085282;
-}
-.resource-section .resource a .fa {
-  padding-right: .5em;
-}
-.resource-section .resource a:hover {
-  text-decoration: none;
-  font-weight: bold;
-}
-.resource-section .resource-image img {
-  max-width: 100%;
-}
 .resource-section:last-child {
   border-bottom: none;
+}
+.resource-section ul {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -15px;
+}
+.resource-section ul li.resource a {
+  color: #085282;
+  padding: .5em;
+  display: block;
+}
+.resource-section ul li.resource a .fa {
+  color: #686868;
+  padding-right: .5em;
+  display: table-cell;
+}
+.resource-section ul li.resource a .name {
+  display: table-cell;
+}
+.resource-section ul li.resource a:hover {
+  text-decoration: none;
+}
+.resource-section ul li.resource:hover {
+  background-color: #f1f1f1;
+}
+.resource-section ul li.resource:hover a {
+  text-decoration: none;
+}
+.resource-section ul .resource-image img {
+  max-width: 100%;
 }
 
 .login-form {

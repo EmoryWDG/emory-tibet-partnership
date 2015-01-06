@@ -6,17 +6,35 @@
 		font-size: .8em;
 		margin-bottom: 1em;
 	}
-	.resource {
-		padding-bottom: .5em;
-		a {
-			color: $moodyblue;
-
-			.fa {
-				padding-right: .5em;
+	&:last-child {
+		border-bottom: none;
+	}
+	ul {
+		padding-left: 0;
+		list-style: none;
+		margin-left: -15px;
+		li.resource {
+			a {
+				color: $moodyblue;
+				padding: .5em;
+				display: block;
+				.fa {
+					color: $grey;
+					padding-right: .5em;
+					display: table-cell;
+				}
+				.name {
+					display: table-cell;
+				}
+				&:hover {
+					text-decoration: none;
+				// font-weight: bold;
 			}
-			&:hover {
+		}
+		&:hover {
+			background-color: $light-grey;
+			a {
 				text-decoration: none;
-				font-weight: bold;
 			}
 		}
 	}
@@ -25,9 +43,11 @@
 			max-width: 100%;
 		}
 	}
-	&:last-child {
-		border-bottom: none;
-	}
+	
+}
+
+
+
 }
 .login-form {
 	margin-top: 1em;
