@@ -1000,4 +1000,12 @@ footer {
   color: #82ab45;
 }
 
+/* CUSTOM STYLES FOR RESOURCE PAGES */
+.resource a {
+  color: #dd8726;
+}
+.resource .fa {
+  color: #085282;
+}
+
 /*# sourceMappingURL=styles.css.map */
