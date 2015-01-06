@@ -1,11 +1,41 @@
+/* CUSTOM STYLES FOR RESOURCES */
+.resource-section {
+	border-bottom: solid 1px $light-grey;
+	padding-bottom: 1em;
+	.resource {
+		padding-bottom: .5em;
+		a {
+			color: $moodyblue;
 
-/* CUSTOM STYLES FOR RESOURCE PAGES */
-
-.resource {
-	a {
-		color: $orange;
+			.fa {
+				padding-right: .5em;
+			}
+			&:hover {
+				text-decoration: none;
+				font-weight: bold;
+			}
+		}
 	}
-	.fa {
-		color: $moodyblue;
+	.resource-image {
+		img {
+			max-width: 100%;
+		}
+	}
+	&:last-child {
+		border-bottom: none;
+	}
+}
+.login-form {
+	margin-top: 1em;
+	input {
+		width: 40%;
+		margin-right: 1em;
+		margin-left: 1em;
+	}
+	input[type="submit"] {
+		background-color: $orange;
+		color: white;
+		text-transform: uppercase;
+		font-weight: bold;
 	}
 }

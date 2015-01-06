@@ -1000,12 +1000,44 @@ footer {
   color: #82ab45;
 }
 
-/* CUSTOM STYLES FOR RESOURCE PAGES */
-.resource a {
-  color: #dd8726;
+/* CUSTOM STYLES FOR RESOURCES */
+.resource-section {
+  border-bottom: solid 1px #f1f1f1;
+  padding-bottom: 1em;
 }
-.resource .fa {
+.resource-section .resource {
+  padding-bottom: .5em;
+}
+.resource-section .resource a {
   color: #085282;
+}
+.resource-section .resource a .fa {
+  padding-right: .5em;
+}
+.resource-section .resource a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.resource-section .resource-image img {
+  max-width: 100%;
+}
+.resource-section:last-child {
+  border-bottom: none;
+}
+
+.login-form {
+  margin-top: 1em;
+}
+.login-form input {
+  width: 40%;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.login-form input[type="submit"] {
+  background-color: #dd8726;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
