@@ -24,11 +24,10 @@
 		color: $brightblue;
 		font-size: 30px;
 	}
-}
-
-
-#subscribe-form {
-	margin-top: 1.5em;
+	p, #thank-you {
+		font-size: 1.5em;
+		font-weight: 200;
+	}
 }
 
 #subscribeBtn {
@@ -48,5 +47,5 @@ footer {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1.42857143;
-	margin-top:10px; 
+	// margin-top:10px; 
 }
