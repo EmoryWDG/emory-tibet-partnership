@@ -868,5 +868,38 @@ footer {
     font-weight: 600; }
 
 /* CUSTOM STYLES FOR PULL QUOTES - MIKE JANUS */
+.pull-quote p {
+  color: #045282; }
+.pull-quote .pull-quote .pull-quote-right {
+  color: #dd8726;
+  padding: 0 0 10px 10px;
+  font-size: 14px;
+  margin: -6px 0 0 22px;
+  font-weight: bold; }
+.pull-quote .image-caption {
+  color: #FFF;
+  font-weight: bold;
+  position: relative;
+  top: -24px;
+  right: 0;
+  background: #82ab45;
+  padding: 6px 0 7px 0;
+  border-radius: 0 0 5px 5px; }
+.pull-quote .quote_left {
+  font-size: 40px;
+  position: relative;
+  top: 3px;
+  left: -1px;
+  font-weight: normal; }
+.pull-quote .quote_right {
+  font-size: 40px;
+  position: relative;
+  top: 3px;
+  left: 4px;
+  font-weight: normal; }
+
+div.clearfix.page-content .pull-quote-right p em {
+  font-size: 18px;
+  line-height: 0; }
 
 /*# sourceMappingURL=styles.css.map */
