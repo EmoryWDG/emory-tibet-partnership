@@ -1058,4 +1058,18 @@ footer {
   font-weight: bold;
 }
 
+.person {
+  border-bottom: solid 1px #f1f1f1;
+  padding: .5em 0;
+  line-height: 1.5em;
+}
+.person .fa {
+  font-size: .8em;
+  padding-right: .5em;
+  color: #686868;
+}
+.person .name, .person .title {
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=styles.css.map */

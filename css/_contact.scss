@@ -1,0 +1,13 @@
+.person {
+	border-bottom: solid 1px $light-grey;
+	padding: .5em 0;
+	line-height: 1.5em;
+	.fa {
+		font-size: .8em;
+		padding-right: .5em;
+		color: $grey;
+	}
+	.name, .title {
+		font-weight: 600;
+	}
+}
