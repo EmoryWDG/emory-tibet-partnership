@@ -46,6 +46,7 @@
 	
 }
 
+<<<<<<< Updated upstream
 }
 .login-form {
 	margin-top: 1em;
@@ -69,5 +70,17 @@
 			color: $moodyblue;
 			padding-right: .5em;
 		}
+=======
+/* CUSTOM STYLES FOR RESOURCE PAGES */
+
+.resource {
+	padding: .3em;
+	a {
+		color: $orange;
+	}
+	.fa {
+		color: $moodyblue;
+		padding-right: .5em;
+>>>>>>> Stashed changes
 	}
 }
