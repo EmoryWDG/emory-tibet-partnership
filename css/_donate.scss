@@ -1,7 +1,11 @@
 .donate-wrap {
   border: 1px solid #f1f1f1;
-  margin: 0 0 1em;
+  margin-bottom: 1em;
   padding: 10px 0;
+}
+
+.donate-header {
+  margin-bottom: 2em;
 }
 
 .donate-thumb {
@@ -43,4 +47,17 @@
     background: none repeat scroll 0 0 #263892;
   }
 
+}
+
+.donate-footer {
+  background: #dc8623;
+  padding: 1em 1em 2em;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 -30px;
+
+  h1 {
+    color: #fff;
+    font-size: 1.5em;
+  }
 }
