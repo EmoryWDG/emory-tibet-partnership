@@ -43,8 +43,19 @@
 			max-width: 100%;
 		}
 	}
+	.resource {
+		padding: .3em;
+		a {
+			color: $orange;
+		}
+		.fa {
+			color: $moodyblue;
+			padding-right: .5em;
+		}
+	}
 }
 
+}
 .login-form {
 	margin-top: 1em;
 	input {
@@ -58,15 +69,4 @@
 		text-transform: uppercase;
 		font-weight: bold;
 	}
-	.resource {
-		padding: .3em;
-		a {
-			color: $orange;
-		}
-		.fa {
-			color: $moodyblue;
-			padding-right: .5em;
-		}
-	}
-}
 }
