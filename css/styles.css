@@ -1185,6 +1185,21 @@ footer {
   font-weight: normal;
 }
 
+.quote.col-sm-12 .pull-quote.quote-section.quote p:first-child {
+  border: solid 1px #EEEEEE;
+  padding: 0 15px 8px 15px;
+  border-radius: 5px;
+  background: #F9F9F9;
+}
+.quote.col-sm-12 .pull-quote.quote-section.quote p:last-child {
+  color: #dd8726;
+}
+
+.quote.col-sm-6 {
+  padding: 0;
+  margin-top: 0;
+}
+
 div.clearfix.page-content .pull-quote-right p em {
   font-size: 18px;
   line-height: 0;
