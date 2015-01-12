@@ -904,7 +904,8 @@ footer {
     font-weight: bold; }
   .pull-quote .image-caption {
     color: #FFF;
-    font-weight: bold;
+    font-weight: normal;
+    text-align: center;
     position: relative;
     top: -24px;
     right: 0;
