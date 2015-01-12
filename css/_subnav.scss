@@ -19,7 +19,7 @@
 			padding: 0;
 			li {
 			// background-color: $white;
-			margin: 1em;
+			margin: 1em 0;
 			// min-height: 90px;
 			background-repeat: no-repeat;
 			background-position: bottom right;
@@ -29,9 +29,9 @@
 			border-bottom: #ccc solid 1px;
 			padding-bottom: 20px;
 			text-align: right;
-				a {
-					color: $grey;
-					padding-right: 10px;
+			a {
+				color: $grey;
+				padding-right: 10px;
 					// padding: .5em 0em;
 					&:hover {
 						background-color: transparent;
@@ -75,7 +75,7 @@
 					}
 				}
 
-			&:hover {
+				&:hover {
 				// background-color: $moodyblue;
 				a {
 					color: $grey;

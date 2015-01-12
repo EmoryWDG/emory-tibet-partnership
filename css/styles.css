@@ -94,7 +94,7 @@ main p {
 .equal-height #sub-nav ul {
   padding: 0; }
 .equal-height #sub-nav ul li {
-  margin: 1em;
+  margin: 1em 0;
   background-repeat: no-repeat;
   background-position: bottom right;
   font-weight: 200;
