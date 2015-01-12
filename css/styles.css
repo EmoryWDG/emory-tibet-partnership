@@ -868,6 +868,13 @@ footer {
   color: white;
   text-transform: uppercase;
   font-weight: bold; }
+.login-form .resource {
+  padding: .3em; }
+.login-form .resource a {
+  color: #dd8726; }
+.login-form .resource .fa {
+  color: #085282;
+  padding-right: .5em; }
 
 .person {
   border-bottom: solid 1px #f1f1f1;
