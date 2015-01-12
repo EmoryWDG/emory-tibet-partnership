@@ -881,6 +881,9 @@ footer {
   font-weight: 600; }
 
 /* CUSTOM STYLES FOR PULL QUOTES - MIKE JANUS */
+.pull-quote {
+  margin-left: -15px;
+  margin-right: -15px; }
 .pull-quote p {
   color: #045282; }
 .pull-quote .pull-quote .pull-quote-right {
