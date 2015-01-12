@@ -39,6 +39,21 @@ main {
 	}
 }
 
+.page-content {
+	.btn {
+		color: #FFF;
+		&.primary{
+			background-color: $orange;
+		}
+		&.secondary{
+			background-color: $green;
+		}
+		&.tertiary{
+			background-color: $moodyblue;
+		}
+	}
+}
+
 @import 'subnav';
 
 
@@ -551,9 +566,12 @@ p {
 	.largeheader .caption .contain {
 		width: 650px;
 	}
+	.nav>li>a {
+		padding: 10px 14px;
+	}
 	.largeheader .caption {
 		width: 59%;
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	.carousel .caption .contain {
 		width: 650px;
