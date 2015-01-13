@@ -1123,8 +1123,12 @@ footer {
 
 .donate-wrap {
   border: 1px solid #f1f1f1;
-  margin: 0 0 1em;
+  margin-bottom: 1em;
   padding: 10px 0;
+}
+
+.donate-header {
+  margin-bottom: 2em;
 }
 
 .donate-thumb {
@@ -1158,6 +1162,18 @@ footer {
 }
 .donate-button > button:hover {
   background: none repeat scroll 0 0 #263892;
+}
+
+.donate-footer {
+  background: #dc8623;
+  padding: 1em 1em 2em;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 -30px;
+}
+.donate-footer h1 {
+  color: #fff;
+  font-size: 1.5em;
 }
 
 /* CUSTOM STYLES FOR PULL QUOTES - MIKE JANUS */
@@ -1211,6 +1227,7 @@ footer {
   color: #dd8726;
   margin: 0;
   padding: 0;
+  text-align: right;
 }
 .pull-quote .col-sm-6 {
   padding: 0;
