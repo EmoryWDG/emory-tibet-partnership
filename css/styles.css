@@ -207,9 +207,6 @@ main p {
   text-align: right;
   padding: 13px 0px 13px 10px;
 }
-.equal-height #sub-nav ul li:nth-child(1) {
-  padding: 17px 0px 0px 0px;
-}
 .equal-height #sub-nav ul li a {
   color: #686868;
   padding-right: 10px;
