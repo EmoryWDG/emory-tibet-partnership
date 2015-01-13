@@ -23,9 +23,28 @@ body {
   margin-left: 0;
 }
 
-.header-hat {
+#header .header-hat {
   height: auto;
   background-color: #00257a;
+}
+#header .header-hat .logo {
+  height: 40px;
+}
+#header .header-hat .emory-wide ul .nav-box #form-search .btn {
+  height: 40px;
+  border-radius: 0px;
+}
+#header .header-hat .emory-wide ul li.top.search {
+  padding-top: 0;
+}
+#header .header-hat .emory-wide ul li.top .nav-box.search {
+  height: auto;
+}
+#header .header-hat .emory-wide input#q {
+  border-radius: 0;
+  height: 40px;
+  border: none;
+  background-color: #4070cb;
 }
 
 .navbar {
@@ -1148,6 +1167,8 @@ footer {
 }
 .pull-quote p {
   color: #045282;
+  padding-bottom: 0;
+  line-height: 2.5em;
 }
 .pull-quote img.pull-quote-image {
   width: 100%;
@@ -1171,31 +1192,27 @@ footer {
   border-radius: 0 0 5px 5px;
 }
 .pull-quote .quote_left {
-  font-size: 40px;
   position: relative;
-  top: 3px;
-  left: -1px;
-  font-weight: normal;
+  top: -9px;
+  left: -2px;
 }
 .pull-quote .quote_right {
-  font-size: 40px;
   position: relative;
-  top: 3px;
+  top: -10px;
   left: 4px;
-  font-weight: normal;
 }
-
-.quote.col-sm-12 .pull-quote.quote-section.quote p:first-child {
+.pull-quote .quote-section .quote.col-sm-12 {
+  background: #F9F9F9;
   border: solid 1px #EEEEEE;
   padding: 0 15px 8px 15px;
   border-radius: 5px;
-  background: #F9F9F9;
 }
-.quote.col-sm-12 .pull-quote.quote-section.quote p:last-child {
+.pull-quote p:last-child {
   color: #dd8726;
+  margin: 0;
+  padding: 0;
 }
-
-.quote.col-sm-6 {
+.pull-quote .col-sm-6 {
   padding: 0;
   margin-top: 0;
 }

@@ -17,10 +17,35 @@
 .search-scope {
 	margin-left: 0;
 }
+#header {
+	.header-hat {
+		height: auto;
+		background-color: #00257a;
+		.logo {
+			height: 40px;
+		}
+		.emory-wide {
+			ul .nav-box #form-search .btn {
+				height: 40px;
+				border-radius: 0px;
+			}
+			ul li.top {
+				&.search {
+					padding-top: 0;
+				}
+				.nav-box.search {
+					height: auto;
+				}
+			}
 
-.header-hat {
-	height: auto;
-	background-color: #00257a;
+			input#q {
+				border-radius: 0;
+				height: 40px;
+				border: none;
+				background-color: #4070cb;
+			}
+		}
+	}
 }
 
 .navbar {
@@ -47,10 +72,10 @@
 
 }
 .navbar-brand {
-float: left;
-padding: 10px 10px;
-font-size: 18px;
-line-height: 20px;
+	float: left;
+	padding: 10px 10px;
+	font-size: 18px;
+	line-height: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a {
