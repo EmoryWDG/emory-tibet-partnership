@@ -41,18 +41,22 @@ main {
 
 .page-content {
 	.btn {
-		color: #FFF;
+		
 		margin: 1em auto;
 		font-size: 1em;
 		padding: 1em;
+		min-width: 200px;
 		&.primary{
 			background-color: $orange;
+			color: #FFF;
 		}
 		&.secondary{
 			background-color: $green;
+			color: #FFF;
 		}
 		&.tertiary{
 			background-color: $moodyblue;
+			color: #FFF;
 		}
 	}
 }

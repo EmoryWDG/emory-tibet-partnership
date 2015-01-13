@@ -30,12 +30,44 @@ body {
 #header .header-hat .logo {
   height: 40px;
 }
+#header .header-hat .logo img {
+  height: 40px;
+}
+#header .header-hat ul.header-links a:hover {
+  text-decoration: none;
+}
+#header .header-hat ul.header-links li {
+  display: inline-block;
+}
+#header .header-hat ul.header-links li.contact-us {
+  background-color: #82ab45;
+  color: white;
+  text-transform: uppercase;
+  padding-top: .9em;
+  font-size: .9em;
+  font-weight: 300;
+}
+#header .header-hat ul.header-links li.contact-us:hover {
+  background-color: #8fb951;
+}
+#header .header-hat ul.header-links li.donate {
+  background-color: #dd8726;
+  color: white;
+  text-transform: uppercase;
+  padding-top: .9em;
+  font-size: .9em;
+  font-weight: 300;
+}
+#header .header-hat ul.header-links li.donate:hover {
+  background-color: #e0933c;
+}
 #header .header-hat .emory-wide ul .nav-box #form-search .btn {
   height: 40px;
   border-radius: 0px;
 }
 #header .header-hat .emory-wide ul li.top.search {
   padding-top: 0;
+  margin-right: -16px;
 }
 #header .header-hat .emory-wide ul li.top .nav-box.search {
   height: auto;
@@ -107,19 +139,22 @@ main p {
 }
 
 .page-content .btn {
-  color: #FFF;
   margin: 1em auto;
   font-size: 1em;
   padding: 1em;
+  min-width: 200px;
 }
 .page-content .btn.primary {
   background-color: #dd8726;
+  color: #FFF;
 }
 .page-content .btn.secondary {
   background-color: #82ab45;
+  color: #FFF;
 }
 .page-content .btn.tertiary {
   background-color: #085282;
+  color: #FFF;
 }
 
 .equal-height #sub-nav ul li.active .level3 li a, .equal-height #sub-nav ul li:hover .level3 li a, .equal-height #sub-nav ul li.level3 li a {
@@ -1166,14 +1201,18 @@ footer {
 
 .donate-footer {
   background: #dc8623;
-  padding: 1em 1em 2em;
+  padding: 1em 1em 1em;
   color: #fff;
   font-weight: 500;
   margin: 0 -30px;
+  text-align: center;
 }
 .donate-footer h1 {
   color: #fff;
   font-size: 1.5em;
+}
+.donate-footer p {
+  color: #FFF;
 }
 
 /* CUSTOM STYLES FOR PULL QUOTES - MIKE JANUS */
@@ -1228,10 +1267,6 @@ footer {
   margin: 0;
   padding: 0;
   text-align: right;
-}
-.pull-quote .col-sm-6 {
-  padding: 0;
-  margin-top: 0;
 }
 
 div.clearfix.page-content .pull-quote-right p em {
