@@ -163,53 +163,64 @@ main p {
   font-weight: 200;
   list-style-type: none;
   font-size: .8em;
-  background-image: none;
   display: block;
 }
 
 .equal-height #sub-nav {
   height: 100%;
+  margin-top: 20px;
 }
 .equal-height #sub-nav ul {
   padding: 0;
 }
-.equal-height #sub-nav ul .level2 li:hover {
+.equal-height #sub-nav ul.level2 li:hover {
   color: #686868;
   font-weight: 400;
   background-color: #f1f1f1;
 }
-.equal-height #sub-nav ul .level3 li {
-  border-bottom: none;
-}
-.equal-height #sub-nav ul .level3 li:hover {
+.equal-height #sub-nav ul.level3 li:hover {
   color: #686868;
   font-weight: 400;
   background-color: #f1f1f1;
 }
-.equal-height #sub-nav ul .level3 li a {
-  padding-right: 10px;
+.equal-height #sub-nav ul.level3 li a {
+  padding-left: 20px;
 }
-.equal-height #sub-nav ul .level4 li a {
+.equal-height #sub-nav ul.level4 li a {
   font-weight: 200;
+  padding-left: 30px;
 }
-.equal-height #sub-nav ul .level4 li:hover {
+.equal-height #sub-nav ul.level4 li:hover {
   color: #686868;
   font-weight: 400;
   background-color: #f1f1f1;
+}
+.equal-height #sub-nav ul.level4 li.active > a {
+  font-weight: bold;
 }
 .equal-height #sub-nav ul li {
   margin: 0;
-  background-repeat: no-repeat;
-  background-position: bottom right;
   font-weight: 200;
   list-style-type: none;
-  border-bottom: #ccc solid 1px;
-  text-align: right;
-  padding: 13px 0px 13px 10px;
+  text-align: left;
+}
+.equal-height #sub-nav ul li.active {
+  border-left: solid 4px #dd8726;
+}
+.equal-height #sub-nav ul li.active.parent > a {
+  background-image: url("img/arrow-down.png");
+}
+.equal-height #sub-nav ul li.parent > a {
+  background-image: url("img/arrow-right.png");
+  background-position: center right 6px;
+  background-repeat: no-repeat;
+  padding-right: 15px;
 }
 .equal-height #sub-nav ul li a {
   color: #686868;
-  padding-right: 10px;
+  display: block;
+  padding: 10px;
+  border-bottom: #ccc solid 1px;
 }
 .equal-height #sub-nav ul li a:hover {
   color: #686868;
@@ -219,6 +230,7 @@ main p {
   color: #686868;
   background-color: #f1f1f1;
   text-decoration: none;
+  font-weight: 700;
 }
 .equal-height #sub-nav ul li.active {
   background-color: #f1f1f1;
@@ -227,12 +239,6 @@ main p {
   color: #686868;
   font-weight: 400;
 }
-.equal-height #sub-nav ul li.active .level2 li a {
-  font-weight: bold;
-}
-.equal-height #sub-nav ul li.active .level3 li a {
-  font-weight: bold;
-}
 .equal-height #sub-nav ul li:hover a {
   color: #686868;
   font-weight: 400;
@@ -240,9 +246,6 @@ main p {
 }
 .equal-height #sub-nav ul li:hover .level2 {
   background-color: #f1f1f1;
-}
-.equal-height #sub-nav ul li:hover .level3 li {
-  border-bottom: none;
 }
 
 #news dl {
